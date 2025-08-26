@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="./src/output.css" rel="stylesheet">
+    <title>Reliable Soft-tech</title>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <header id="top-navbar" class="relative md:absolute md:bg-[#0000002e] md:border-b-1 md:border-[#ffffff7a] bg-white top-0 z-10 w-full md:pt-3 md:pb-3">
+        <nav class="flex justify-between w-[95%] mx-auto">
+            <div>
+                <img class="w-50 p-4" src="./img/logo.png" alt="img"/>
+            </div>
+            <div class="opacity-0 md:opacity-100 nav-links duration-500 md:static absolute top-[70px] min-h-fit left-0 
+            md:pl-0 pl-4 pb-4 md:pb-0 md:w-auto w-full flex items-center bg-white md:bg-[#fff0] z-20">
+                <ul class="flex font-nunito md:flex-row flex-col md:items-center md:gap-[3vw] gap-5">
+                        <li id="navLi-1" class="nav-li active"><a href="index.html">Home</a></li>
+                        <li id="navLi-2" class="nav-li"><a href="#">About Us</a></li>
+                        <li id="navLi-3" class="nav-li"><a href="#">Services</a></li>
+                        <li id="navLi-4" class="nav-li"><a href="#">Portfolio</a></li>
+                        <li id="navLi-5" class="nav-li"><a href="#">Blog</a></li>
+                        <li><button class="bg-sky-500 py-1 px-3 rounded hover:bg-sky-600 duration-500 text-white cursor-pointer">Contact Us</button></li>
+                </ul>
+            </div>
+            <ion-icon onclick="onToggleManu(this)" name="menu" class="text-2xl cursor-pointer md:hidden text-sky-500 mt-5"></ion-icon>
+        </nav>
+    </header>
+
+    <section>
+        <div class="w-full">
+          <div class="relative">
+            <img src="img/carousel-1.jpg" alt="" class="w-full"/>
+            <div class=" absolute top-0 left-0 right-0 h-full w-full bg-blue-900 opacity-70"></div>
+          </div>
+        </div>
+    </section>
+
+    <section>
+      <div class="container mx-auto mt-[-100px] relative z-5">
+        <div class="row-auto">
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-0 mt-7">
+                <div class="bg-sky-500 py-10 px-16 flex mx-4 md:mx-0">
+                    <div class="p-4 bg-white h-max"><ion-icon name="people-outline" class="text-3xl text-sky-500"></ion-icon></div>
+                    <div class="text-white font-font-nunito block ml-5">
+                        <h4 class="text-2xl font-semibold block">Happy Clients</h4>
+                        <h2 class="text-4xl font-bold">12345</h2>
+                    </div>
+                </div>
+                <div class="bg-sky-100 py-10 px-16 flex mx-4 md:mx-0">
+                    <div class="p-4 bg-sky-500 h-max"><ion-icon name="checkmark-outline" class="text-3xl text-white font-bold"></ion-icon></div>
+                    <div class="font-nunito block ml-5">
+                        <h4 class="text-2xl font-semibold block text-sky-500">Projects Done</h4>
+                        <h2 class="text-4xl font-bold text-black">12345</h2>
+                    </div>
+                </div>
+                <div class="bg-sky-500 py-10 px-16 flex mx-4 md:mx-0">
+                    <div class="p-4 bg-white h-max"><ion-icon name="trophy-outline" class="text-3xl text-sky-500"></ion-icon></div>
+                    <div class="text-white font-nunito block ml-5">
+                        <h4 class="text-2xl font-semibold block">Win Awards</h4>
+                        <h2 class="text-4xl font-bold">12345</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mx-auto mt-25">
+        <div class="row-auto">
+            <div class="grid sm:grid-cols-12 md:grid-cols-12">
+                <div class="md:col-span-7 mx-4">
+                    <h4 class="font-nunito text-sky-500 text-2xl font-bold">About Us</h4>
+                    <h2 class="font-nunito text-black text-5xl font-bold my-5">The Best IT Solution With 10 Years of Experience</h2>
+                    <p class="text-gray-700">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et 
+                        eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita 
+                        duo justo et tempor eirmod magna dolore erat amet</p>
+                    <div class="mt-6">
+                        <div class="row-auto">
+                           <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
+                              <div class="text-[20px] font-semibold"><span><ion-icon name="checkmark-outline" class="text-sky-500 font-extrabold"></ion-icon></span> Award Winning</div>
+                              <div class="text-[20px] font-semibold"><span><ion-icon name="checkmark-outline" class="text-sky-500 font-extrabold"></ion-icon></span> 24/7 Support</div>
+                              <div class="text-[20px] font-semibold"><span><ion-icon name="checkmark-outline" class="text-sky-500 font-extrabold"></ion-icon></span> Professional Staff</div>
+                              <div class="text-[20px] font-semibold"><span><ion-icon name="checkmark-outline" class="text-sky-500 font-extrabold"></ion-icon></span> Fair Prices</div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="flex mt-6">
+                        <div class="px-4 py-3 bg-sky-500 h-max"><ion-icon name="checkmark-outline" class="text-3xl text-white font-bold"></ion-icon></div>
+                        <div class="font-nunito block ml-5">
+                            <h4 class="text-[20px] font-semibold block text-black">Call to ask any question</h4>
+                            <h2 class="text-3xl font-bold text-sky-500">+012 340 0089</h2>
+                        </div>
+                    </div>
+                    <button class="mt-6 bg-sky-500 hover:bg-sky-600 text-white duration-600 cursor-pointer py-[15px] px-[45px]">Request A Quote</button>
+                </div>
+                <div class="md:col-span-5 mt-5 md:mt-0 mx-4">
+                    <img src="img/about.jpg" alt="" class="w-fit"/>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mx-auto">
+        <div class="row-auto">
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-7">
+                <div class="mx-4 bg-red-400">01</div>
+                <div class="mx-4 bg-orange-400">02</div>
+                <div class="mx-4 bg-amber-400">03</div>
+                <div class="mx-4 bg-yellow-400">04</div>
+                <div class="mx-4 bg-lime-400">05</div>
+                <div class="mx-4 bg-green-400">06</div>
+                <div class="mx-4 bg-emerald-400">07</div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+<script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+        document.getElementById("top-navbar").classList = "fixed md:bg-[#ffffff] md:border-b-1 md:border-[#ffffff7a] bg-white top-0 z-30 w-full duration-500 pt-0 pb-0";
+        document.getElementById("navLi-1").style.color = "#000";
+        document.getElementById("navLi-2").style.color = "#000";
+        document.getElementById("navLi-3").style.color = "#000";
+        document.getElementById("navLi-4").style.color = "#000";
+        document.getElementById("navLi-5").style.color = "#000";
+    } else {
+        document.getElementById("top-navbar").classList = "relative md:absolute md:bg-[#0000002e] md:border-b-1 md:border-[#ffffff7a] bg-white top-0 z-10 w-full md:pt-3 md:pb-3";
+        document.getElementById("navLi-1").style.color = "#fff"; 
+        document.getElementById("navLi-2").style.color = "#fff";
+        document.getElementById("navLi-3").style.color = "#fff";
+        document.getElementById("navLi-4").style.color = "#fff";
+        document.getElementById("navLi-5").style.color = "#fff";
+      }
+      if (window.matchMedia("(min-width: 600px)").matches) {
+        //--dasktop screen--
+      } else {
+        //--mobile-screen--
+        document.getElementById("navLi-1").style.color = "#000";
+        document.getElementById("navLi-2").style.color = "#000";
+        document.getElementById("navLi-3").style.color = "#000";
+        document.getElementById("navLi-4").style.color = "#000";
+        document.getElementById("navLi-5").style.color = "#000";
+      }
+    };
+</script>
+  
+
+<script>
+    const navLinks = document.querySelector('.nav-links')
+    function onToggleManu(e) {
+        e.name = e.name === 'menu' ? 'close' : 'menu'
+        navLinks.classList.toggle('opacity-100')
+    }
+</script>
+ 
+</body>
+</html>
